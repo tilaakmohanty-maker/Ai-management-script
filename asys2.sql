@@ -1,3 +1,4 @@
+USE noshowguard;
 WITH monthly_stats AS(
 	SELECT
 		SUBSTR(appt_date,1,7) AS appt_month,
