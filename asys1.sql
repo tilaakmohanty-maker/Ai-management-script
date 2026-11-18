@@ -1,3 +1,4 @@
+USE noshowguard;
 SELECT 
     CASE 
         WHEN lead_days BETWEEN 1 AND 7 THEN '1-7'
