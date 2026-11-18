@@ -1,3 +1,4 @@
+USE noshowguard;
 WITH clinic_stats AS (
     SELECT 
         c.clinic_name,
